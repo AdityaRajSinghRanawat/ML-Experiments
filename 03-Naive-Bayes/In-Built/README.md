@@ -1,6 +1,6 @@
 # Naive Bayes (In‑Built) — Easy Guide & Learning Module ✅
 
-![Naive Bayes overview](./screenshot/naive-bayes-use-case.webp)
+![scikit-learn logo](./screenshot/scikit-learn-logo.png)
 
 ## What you will learn 💡
 - Core idea behind **Naive Bayes** classifiers
