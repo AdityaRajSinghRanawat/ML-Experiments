@@ -1,30 +1,58 @@
-# Machine Learning Lab
+# Machine Learning Lab — Current status & visual guide ✅
 
-A collection of machine learning experiments and implementations from my university coursework.
-
-## About
-
-This repository contains practical implementations of machine learning algorithms and techniques covered in my ML lab sessions. Each experiment explores fundamental concepts and applies them to real-world datasets.
-
-## Purpose
-
-- Document hands-on learning in machine learning
-- Implement core ML algorithms from scratch
-- Explore various ML libraries and frameworks
-- Build a foundation in practical machine learning
-
-## What You'll Find Here
-
-Each experiment includes the problem statement, dataset information, implementation code, and analysis of results. The focus is on understanding the underlying mathematics and logic behind each algorithm while developing practical coding skills.
-
-## Topics
-
-Experiments cover supervised learning, unsupervised learning, regression, classification, clustering, neural networks, model evaluation, feature engineering, and other fundamental machine learning concepts.
-
-## Tools & Technologies
-
-Google Colab, Python, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn, and other relevant ML libraries.
+This repository contains hands‑on ML experiments from coursework, with notebooks, data and visual outputs. The READMEs for each experiment now include step‑by‑step guides and embedded screenshots (see `screenshot/` folders).
 
 ---
 
-*"In God we trust. All others must bring data." - W. Edwards Deming*
+## Quick status (what's available now) 🔎
+
+| Experiment | Notebook / Code | Screenshots | README status |
+|---|:---:|:---:|:---:|
+| `01-Find-S-Algorithm` | `code/` (notebook) | — (no screenshots) | README present |
+| `02-Candidate-Elimination Algorithm` | `code/` + notebooks | `screenshots/` (data, output) ✅ | README present |
+| `03-Naive-Bayes (In-Built)` | `code/code.ipynb` | `screenshot/` (output, use-case, logo) ✅ | README updated (image‑rich) |
+| `03-Naive-Bayes (Manual)` | `code/code.ipynb` | `screenshot/` (formula, graph, output) ✅ | README updated (image‑rich) |
+| `04-Decision-Tree` | `code/code.ipynb` | `screenshot/` (tree, output, working) ✅ | README updated (image‑rich) |
+| `05-K-Nearest-Neighbour` | `code/code.ipynb` | `screenshot/` (plots, output, working) ✅ | README updated (image‑rich) |
+| `06-K-Means-Clustering` | `code/code.ipynb` | `screenshot/` (centroids, assignments, working) ✅ | README updated (image‑rich) |
+
+---
+
+## How screenshots were used 📸
+- Each experiment's `README.md` now embeds images from its `screenshot/` folder to explain outputs and guide interpretation.  
+- Use the images to quickly identify expected notebook outputs before running code.
+
+---
+
+## How to run the notebooks ▶️
+1. Open the experiment folder (for example `06-K-Means-Clustering/code/code.ipynb`).
+2. Start Jupyter / VS Code Notebook and run cells top‑to‑bottom.
+3. If a README mentions hyperparameters (e.g. `n_clusters`, `n_neighbors`), change them and re‑run to observe effects.
+
+Quick install for dependencies:
+
+```
+pip install numpy pandas matplotlib scikit-learn jupyter
+```
+
+---
+
+## Suggested next steps (priority) 🛠️
+1. Add screenshots for `01-Find-S-Algorithm` to match the others. ✅
+2. Add small code snippets to READMEs where missing (Elbow method for K‑Means, CV snippet for K‑NN).  
+3. Add a CONTRIBUTING section and a short script to regenerate screenshots automatically (notebooks → images).
+
+---
+
+## Contribution / Editing workflow ✍️
+- Update notebook → run cells → export key plots to `screenshot/` → update README with embedded images.
+- Prefer PNG/JPEG for screenshots and keep filenames short (used in current READMEs).
+
+---
+
+## Contact / Credits
+- Created as course lab experiments — feel free to fork and adapt for study.
+
+---
+
+*"In God we trust. All others must bring data." — W. Edwards Deming*
